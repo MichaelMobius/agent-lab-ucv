@@ -17,7 +17,7 @@ https://shell.cloud.google.com/
 Reemplaza `TU_USUARIO` por el usuario de GitHub donde se publique este repositorio:
 
 ```bash
-git clone https://github.com/TU_USUARIO/agent-lab-ucv.git
+git clone https://github.com/MichaelMobius/agent-lab-ucv.git
 cd agent-lab-ucv
 ```
 
