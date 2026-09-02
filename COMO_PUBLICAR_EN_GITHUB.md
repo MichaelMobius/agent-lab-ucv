@@ -26,7 +26,7 @@ En `git status` debes ver también archivos como:
 ```bash
 git commit -m "Agent Lab inicial"
 git branch -M main
-git remote add origin https://github.com/TU_USUARIO/agent-lab-ucv.git
+git remote add origin https://github.com/MichaelMobius/agent-lab-ucv.git
 git push -u origin main
 ```
 
@@ -34,22 +34,16 @@ git push -u origin main
 
 ## Después de publicar
 
-Haz una búsqueda/reemplazo en estos archivos para cambiar `TU_USUARIO` por tu usuario real de GitHub:
-
-- `README.md`
-- `INSTRUCCIONES_PARTICIPANTES.md`
-- `docente/GUIA_DOCENTE.md`
-
-Luego vuelve a hacer commit y push.
+El repositorio ya está configurado para `MichaelMobius/agent-lab-ucv`; no necesitas reemplazar el nombre de usuario en las instrucciones.
 
 ## Prueba final desde una cuenta distinta
 
 Abre Cloud Shell y ejecuta:
 
 ```bash
-git clone https://github.com/TU_USUARIO/agent-lab-ucv.git
+git clone https://github.com/MichaelMobius/agent-lab-ucv.git
 cd agent-lab-ucv
-./scripts/verificar_entorno.sh
+bash ./scripts/verificar_entorno.sh
 gemini
 ```
 

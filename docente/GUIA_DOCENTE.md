@@ -37,9 +37,9 @@ modelo → agente sobre archivos → Skill → MCP → Skill + MCP → agente pr
 En una cuenta distinta a la tuya, prueba:
 
 ```bash
-git clone https://github.com/TU_USUARIO/agent-lab-ucv.git
+git clone https://github.com/MichaelMobius/agent-lab-ucv.git
 cd agent-lab-ucv
-./scripts/verificar_entorno.sh
+bash ./scripts/verificar_entorno.sh
 gemini
 ```
 

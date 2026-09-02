@@ -1,5 +1,22 @@
 # Solución de problemas
 
+## `permission denied` al ejecutar un script
+
+No dependas del permiso de ejecución del archivo. Ejecútalo explícitamente con Bash:
+
+```bash
+bash ./scripts/verificar_entorno.sh
+```
+
+Para los demás scripts usa el mismo patrón:
+
+```bash
+bash ./scripts/crear_skill.sh mi-agente
+bash ./scripts/limpiar_resultados.sh
+```
+
+---
+
 ## Cerré Cloud Shell o Gemini
 
 Vuelve a abrir Cloud Shell y ejecuta:
@@ -106,5 +123,5 @@ Selecciona Flash Lite y, si tu versión muestra la opción, activa **Remember mo
 Sal de Gemini y ejecuta:
 
 ```bash
-./scripts/limpiar_resultados.sh
+bash ./scripts/limpiar_resultados.sh
 ```

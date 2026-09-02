@@ -14,12 +14,14 @@ https://shell.cloud.google.com/
 
 ### 2. Clona este repositorio
 
-Reemplaza `TU_USUARIO` por el usuario de GitHub donde se publique este repositorio:
 
 ```bash
-git clone https://github.com/TU_USUARIO/agent-lab-ucv.git
+git clone https://github.com/MichaelMobius/agent-lab-ucv.git
 cd agent-lab-ucv
+bash ./scripts/verificar_entorno.sh
 ```
+
+> Ejecutamos los scripts con `bash` para evitar errores de `permission denied` si el permiso de ejecución no fue conservado por GitHub.
 
 ### 3. Inicia Gemini CLI
 

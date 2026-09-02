@@ -17,7 +17,7 @@ Tu agente debe tener:
 Sal momentáneamente de Gemini (`/quit`) y, desde la terminal de Cloud Shell, ejecuta:
 
 ```bash
-./scripts/crear_skill.sh mi-agente
+bash ./scripts/crear_skill.sh mi-agente
 ```
 
 Luego abre:
