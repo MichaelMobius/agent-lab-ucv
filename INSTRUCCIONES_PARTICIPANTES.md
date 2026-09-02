@@ -13,7 +13,7 @@ No necesitas instalar un modelo local, IDE ni API key para el laboratorio princi
 ## Entrada rápida
 
 ```bash
-git clone https://github.com/TU_USUARIO/agent-lab-ucv.git
+git clone https://github.com/MichaelMobius/agent-lab-ucv.git
 cd agent-lab-ucv
 ./scripts/verificar_entorno.sh
 gemini
