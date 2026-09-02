@@ -1,0 +1,9 @@
+# Resultados generados durante el laboratorio
+diagnostico.md
+auditoria.md
+auditoria_sin_skill.md
+auditoria_skill_mcp.md
+
+# Archivos temporales
+*.tmp
+.DS_Store

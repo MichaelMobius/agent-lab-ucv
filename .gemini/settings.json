@@ -1,0 +1,14 @@
+{
+  "mcp": {
+    "allowed": ["demo"]
+  },
+  "mcpServers": {
+    "demo": {
+      "command": "npx",
+      "args": ["-y", "@modelcontextprotocol/server-everything"],
+      "includeTools": ["echo", "get-sum"],
+      "timeout": 30000,
+      "trust": false
+    }
+  }
+}
