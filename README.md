@@ -14,7 +14,6 @@ https://shell.cloud.google.com/
 
 ### 2. Clona este repositorio
 
-
 ```bash
 git clone https://github.com/MichaelMobius/agent-lab-ucv.git
 cd agent-lab-ucv
